@@ -1,4 +1,4 @@
-name: Greetings
+name: Hendisutrisno86
 
 on: [pull_request, issues]
 
@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984 }}
         issue-message: 'Since this is your first issue, we kindly remind you to check out [EIP-1](https://eips.ethereum.org/EIPS/eip-1) for guidance.'
         pr-message: 'Since this is your first pull request, we kindly remind you to check out [EIP-1](https://eips.ethereum.org/EIPS/eip-1) for guidance.'
